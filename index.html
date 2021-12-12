@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label><input type="checkbox" class="micheckbox" value="nombre"> Nombre</label><br>
+        <label><input type="checkbox" class="micheckbox" value="apellido"> Apellido</label><br>
+        <label><input type="checkbox" class="micheckbox" value="edad"> Edad</label><br>
+        <label><input type="checkbox" class="micheckbox" value="nacionalidad"> Nacionalidad</label><br>
+        <label><input type="checkbox" class="micheckbox" value="grupo"> Grupo</label><br>
+
+
+    </div>
+    <div>
+    <button type="button" value=""id="buttonUno" valu="BOTON" onclick=List()>BOTON</button>
+    <input type="text" placeholder="Ingresa Aqui tu texto" id="ingreso" onkeyup=cambioDatos(event)>
+    </div>
+    <h3 id="recoleccion"></h3>
+    <div id="listadoAlumnos" ></div>
+</body>
+<script src="/main.js"></script>
+</html>
